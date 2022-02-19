@@ -15,10 +15,6 @@ public class ExampleOne {
         personService.showAllPerson();
     }
 
-    private static String getIvanovName() {
-        return "Иванов";
-    }
-
     private static void demoTwo(PersonService personService) {
         personService.showAllPerson();
         personService.correctDeleteAllByLastName("Скворцова");
