@@ -7,13 +7,18 @@ public class FooService {
 
     public void example() {
         for (int i = 0; i < 1000; i++) {
+            testMethod(i);
             SurpriseBox.surpriseOne(i);
+        }
+    }
 
-//            try {
-//                SurpriseBox.surpriseOne(i);
-//            } catch (SurpriseException e) {
-//                System.err.println(e.getMessage());
-//            }
+    private void testMethod(int i) {
+        if (i == 100) {
+            try {
+                throw new SurpriseException("Упс");
+            } catch (SurpriseException e) {
+
+            }
         }
     }
 
