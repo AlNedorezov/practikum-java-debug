@@ -5,8 +5,8 @@ public class ExampleOne {
     public static void main(String[] args) {
         final PersonService personService = new PersonService();
 
-//        demoOne(personService);
-        demoTwo(personService);
+        demoOne(personService);
+//        demoTwo(personService);
     }
 
     private static void demoOne(PersonService personService) {
