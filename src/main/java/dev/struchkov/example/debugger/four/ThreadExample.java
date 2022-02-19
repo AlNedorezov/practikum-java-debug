@@ -1,4 +1,4 @@
-package dev.struchkov.example.debugger.three;
+package dev.struchkov.example.debugger.four;
 
 public class ThreadExample implements Runnable {
 

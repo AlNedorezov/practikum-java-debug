@@ -1,4 +1,4 @@
-package dev.struchkov.example.debugger.four;
+package dev.struchkov.example.debugger.three;
 
 import dev.struchkov.example.debugger.box.SurpriseException;
 
