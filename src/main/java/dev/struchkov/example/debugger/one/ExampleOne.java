@@ -2,20 +2,25 @@ package dev.struchkov.example.debugger.one;
 
 public class ExampleOne {
 
-    public static void main(String[] args) {
-        final PersonService personService = new PersonService();
+    private final PersonService personService = new PersonService();
 
-        demoOne(personService);
-//        demoTwo(personService);
+    public static void main(String[] args) {
+        final ExampleOne exampleOne = new ExampleOne();
+        exampleOne.demo();
     }
 
-    private static void demoOne(PersonService personService) {
+    private void demo() {
+        demoOne();
+//        demoTwo();
+    }
+
+    private void demoOne() {
         personService.showAllPerson();
         personService.deleteAllByLastName("Иванов");
         personService.showAllPerson();
     }
 
-    private static void demoTwo(PersonService personService) {
+    private void demoTwo() {
         personService.showAllPerson();
         personService.correctDeleteAllByLastName("Скворцова");
         personService.showAllPerson();
