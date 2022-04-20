@@ -22,7 +22,9 @@ public class PersonService {
 
     public void showAllPerson() {
         System.out.println("\nПользователи системы:");
-        names.values().forEach(System.out::println);
+        for (Person person : names.values()) {
+            System.out.println(person);
+        }
         System.out.println();
     }
 
