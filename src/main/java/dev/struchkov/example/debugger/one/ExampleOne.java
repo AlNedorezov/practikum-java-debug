@@ -6,7 +6,9 @@ public class ExampleOne {
 
     public static void main(String[] args) {
         final ExampleOne exampleOne = new ExampleOne();
+        System.out.println("\n\nПрограмма запущена");
         exampleOne.demo();
+        System.out.println("Программа выполнена");
     }
 
     private void demo() {

@@ -1,6 +1,6 @@
 package dev.struchkov.example.debugger.box;
 
-public class SurpriseBox {
+public final class SurpriseBox {
 
     public static void surpriseOne(int i) {
         if (i == 896) {
