@@ -35,7 +35,7 @@ public class PersonService {
                         2L, new Person(2L, "Никита", "Иванов"),
                         3L, new Person(3L, "Иван", "Сизов"),
                         4L, new Person(4L, "Михаил", "Иванов"),
-                        5L, new Person(5L, "Ксения", "Cкорцова")
+                        5L, new Person(5L, "Ксения", "Скворцова")
                 )
         );
     }

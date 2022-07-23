@@ -13,12 +13,4 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>dev.struchkov.haiti</groupId>
-            <artifactId>haiti-utils</artifactId>
-            <version>0.0.3</version>
-        </dependency>
-    </dependencies>
-
 </project>
